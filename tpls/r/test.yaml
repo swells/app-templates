@@ -1,0 +1,6 @@
+gci: true
+inputs:
+   msg: hello
+outputs:
+   out: hello
+stdout: hello

@@ -1,0 +1,11 @@
+name: r-echo-app
+version: v1
+runtime: R
+src: ./echo.R
+entrypoint: echo
+replicas: 1
+poolsize: 1
+inputs:
+   msg: character
+output:
+   out: character

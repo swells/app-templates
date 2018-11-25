@@ -1,0 +1,11 @@
+name: py-echo-app
+version: v1
+runtime: Python
+src: ./echo.py
+entrypoint: echo
+replicas: 1
+poolsize: 1
+inputs:
+   msg: str
+output:
+   out: str
