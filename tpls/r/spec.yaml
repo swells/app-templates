@@ -2,7 +2,7 @@ name: r-echo-app
 version: v1
 runtime: R
 src: ./echo.R
-entrypoint: echo
+entrypoint: handler
 replicas: 1
 poolsize: 1
 inputs:

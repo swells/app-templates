@@ -12,3 +12,7 @@ def handler(msg):
    print(msg)
    out = msg
    return out
+
+
+if __name__ == '__main__':
+    handler('Hello')

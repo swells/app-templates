@@ -2,7 +2,7 @@ name: py-echo-app
 version: v1
 runtime: Python
 src: ./echo.py
-entrypoint: echo
+entrypoint: handler
 replicas: 1
 poolsize: 1
 inputs:
