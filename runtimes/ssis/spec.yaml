@@ -1,0 +1,6 @@
+name: ssis-echo-app
+version: v1
+runtime: SSIS
+entrypoint: ./echo.dtsx
+options: /REP V
+schedule: "*/2 * * * *"
